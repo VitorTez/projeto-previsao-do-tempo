@@ -4,7 +4,6 @@
 const key ="7f3757fa610610f6f7218daea12dfdb3"
 
 function colocardadosnatela(dates) {
-    console.log(dates)
 
     document.querySelector(".cidade").innerHTML = "Tempo em " + dates.name
     document.querySelector (".temp").innerHTML = Math.floor (dates.main.temp) + "°C"
